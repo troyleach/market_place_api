@@ -1,3 +1,5 @@
+require 'api_constraints'
+
 MarketPlaceApi::Application.routes.draw do
 
   namespace :api, defaults: { format: :json }, constraints: { subdomain: 'api' }, path: '/' do
