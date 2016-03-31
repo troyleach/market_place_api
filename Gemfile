@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
 
@@ -54,3 +53,4 @@ group :test do
   gem "ffaker"
 end
 
+gem 'devise'
